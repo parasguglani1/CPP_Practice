@@ -37,6 +37,10 @@ int main()
  cout<<"Area "<<r1.area()<<endl;
  if(r1.isSquare())
  cout<<"Yes"<<endl;
+
+r1.setLength(20);
+cout<<"Area "<<r1.area()<<endl;
+   return 0;
 }
 Rectangle::Rectangle()
 {

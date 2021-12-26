@@ -33,7 +33,7 @@ class Rectangle
 private:
  int length;
  int breadth;
- //best practice to declare private variables to prevent sata mishandling by the user and functions in public 
+ //best practice to declare private variables to prevent data mishandling by the user and functions in public 
  //we write perfect code in classes
 public:
  Rectangle(); //default constructor

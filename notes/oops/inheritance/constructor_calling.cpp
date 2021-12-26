@@ -77,6 +77,7 @@ Test *t=Test::CeateObject();
 
 };
 int main()
+
 {
 	derived(5,10);
 
