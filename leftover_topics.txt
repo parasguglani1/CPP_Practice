@@ -1,6 +1,0 @@
-multi threading
-gui
-file handling modes seekg and seekp
-containers vector list map set multimap
-https://www.geeksforgeeks.org/c-plus-plus/
-
