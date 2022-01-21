@@ -5,10 +5,9 @@ Efforts were made to make the files as readable as possible, by Commenting the c
 
 ![img](./Screenshots/OOPS_Methods.png)
 
-![img](./Screenshots/Constructors.png)
+![img](./Screenshots/constructors.png)
 
 ![img](./Screenshots/preprocessor_Directives.png)
-
 
 ## Description
 
@@ -16,24 +15,19 @@ The course addresses the requisite basic concepts of [C++ programming language](
 
 ### Table of contents
 
-
-|Sr. No| Topics Covered in this course |
-|-|-|
-| 1.   | [basics](./basics)                |
-|2.| [OOPS](./OOPS)                    |
-| 2. i)|[Operator Overloading](./OOPS/operator_overloading)             |
-| 2. ii)|[Inheritance](./OOPS/inheritance)             |
-| 2. iii)|[Friend Function and static Keyword](./OOPS/friend_and_static/friend_class)             |
-| 2. iv)|[Polymorphism](./OOPS/polymorphism/)             |
-| 3. |[Exception Handling](./exception_handling/)               |
-| 4. | [File Handling](./file%20handling/)                    |
-| 5. |[CPP11 features](./CPP11%20features/)                   |
-| 6. |[Problems](/practice%20problems/)                         |
-| 7. |[Student Project - Banking System](./Project/banking_system.cpp) |
-
-
-
-
+| Sr. No  | Topics Covered in this course                                               |
+| ------- | --------------------------------------------------------------------------- |
+| 1.      | [basics](./basics)                                                          |
+| 2.      | [OOPS](./OOPS)                                                              |
+| 2. i)   | [Operator Overloading](./OOPS/operator_overloading)                         |
+| 2. ii)  | [Inheritance](./OOPS/inheritance)                                           |
+| 2. iii) | [Friend Function and static Keyword](./OOPS/friend_and_static/friend_class) |
+| 2. iv)  | [Polymorphism](./OOPS/polymorphism/)                                        |
+| 3.      | [Exception Handling](./exception_handling/)                                 |
+| 4.      | [File Handling](./file%20handling/)                                         |
+| 5.      | [CPP11 features](./CPP11%20features/)                                       |
+| 6.      | [Problems](/practice%20problems/)                                           |
+| 7.      | [Student Project - Banking System](./Project/banking_system.cpp)            |
 
 ## :arrow_down: Installation
 
@@ -52,8 +46,6 @@ $ git fetch upstream
 $ git merge upstream/master
 ```
 
-
-
 ### Resources Used
 
 - [C++ course on Udemy](https://www.udemy.com/course/cpp-deep-dive/) by Mr Abdul Bari.
@@ -62,6 +54,7 @@ $ git merge upstream/master
 - [Better Comments](https://github.com/aaron-bond/better-comments) for comment highlighting.
 
 ## Room for Improvement
+
 Some Advanced topics can be added
 
 #### [Data Structures and Algorithms Repository[In progress]](https://github.com/parasguglani1/DSA_Practice)
@@ -69,12 +62,12 @@ Some Advanced topics can be added
 - [Graphical Programming]()
 - [Multi Threading]()
 - [STL containers:]
-    - [pair](https://www.geeksforgeeks.org/pair-in-cpp-stl/)
-    - [vector](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
-    - [list](https://www.geeksforgeeks.org/list-cpp-stl/)
-    - [map of pairs](https://www.geeksforgeeks.org/map-pairs-stl/)
-    - [set ](https://www.geeksforgeeks.org/set-in-cpp-stl/)
-    - [multimap](https://www.geeksforgeeks.org/multimap-associative-containers-the-c-standard-template-library-stl/)
+  - [pair](https://www.geeksforgeeks.org/pair-in-cpp-stl/)
+  - [vector](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
+  - [list](https://www.geeksforgeeks.org/list-cpp-stl/)
+  - [map of pairs](https://www.geeksforgeeks.org/map-pairs-stl/)
+  - [set ](https://www.geeksforgeeks.org/set-in-cpp-stl/)
+  - [multimap](https://www.geeksforgeeks.org/multimap-associative-containers-the-c-standard-template-library-stl/)
 
 ## Contributing
 
