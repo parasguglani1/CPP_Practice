@@ -20,16 +20,16 @@ The course addresses the requisite basic concepts of [C++ programming language](
 |Sr. No| Topics Covered in this course |
 |-|-|
 | 1.   | [basics](./basics)                |
-|2.| [OOPS]()                    |
-| 2. i)|[Operator Overloading]()             |
-| 2. ii)|[Inheritance]()             |
-| 2. iii)|[Friend Function and static Keyword]()             |
-| 2. iv)|[Polymorphism]()             |
-| 3. |[Exception Handling]()               |
-| 4. | [File Handling]()                    |
-| 5. |[CPP11 features]()                   |
-| 6. |[Problems]()                         |
-| 7. |[Student Project - Banking System]() |
+|2.| [OOPS](./OOPS)                    |
+| 2. i)|[Operator Overloading](./OOPS/operator_overloading)             |
+| 2. ii)|[Inheritance](./OOPS/inheritance)             |
+| 2. iii)|[Friend Function and static Keyword](./OOPS/friend_and_static/friend_class)             |
+| 2. iv)|[Polymorphism](./OOPS/polymorphism/)             |
+| 3. |[Exception Handling](./exception_handling/)               |
+| 4. | [File Handling](./file%20handling/)                    |
+| 5. |[CPP11 features](./CPP11%20features/)                   |
+| 6. |[Problems](/practice%20problems/)                         |
+| 7. |[Student Project - Banking System](./Project/banking_system.cpp) |
 
 
 
