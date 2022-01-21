@@ -1,6 +1,6 @@
 /* 
 
-*What is a default constructor?
+?What is a default constructor?
 •A constructor which dent take any parameters is called as default
 constructor.
 •There are 2 Types of default constructors
@@ -11,7 +11,7 @@ Compiler provided default constructor
 •It will create the object, but doesn’t initialise data members.
 •If we define our own contractor, then compiler will not provide
 *default constructor.
-Why we write constructor?
+?Why we write constructor?
 • We can initialise the data members of an object.
 • If data members are initialised then we can use the object.
 Type of Constructors
@@ -19,7 +19,7 @@ Type of Constructors
 1.Non-parametrised (also called as default)
 2.Parameterised
 3.Copy constructor
-*Do we have to write all constructors ?
+?Do we have to write all constructors ?
 •It is better to write all constructors.
 •I am not writing it in every lecture because I have to focus on actual topic.
 Why copy constructor should take reference?

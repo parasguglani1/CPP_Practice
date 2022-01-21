@@ -3,12 +3,8 @@ using namespace std;
 
 // Where the class in stored?
 // • In C++, class is not stored in main memory
-// •All member functions of a class are stored in Code section at
-// loading time.
-// • If an object of a class is created inside a function then memory for
-// all data members will be created in a stack of a function. 
-
-
+// •All member functions of a class are stored in Code section at loading time.
+// • If an object of a class is created inside a function then memory for all data members will be created in a stack of a function. 
 class Rectangle
 {
 private:

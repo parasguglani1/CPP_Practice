@@ -1,6 +1,14 @@
 # Introduction To C++ Programming language
 
 This repository contains notes and practice files from the [C++ course on Udemy](https://www.udemy.com/course/cpp-deep-dive/) by Mr Abdul Bari.
+Efforts were made to make the files as readable as possible, by Commenting the code and adding explanations still there is room for improvement.
+
+![img](./Screenshots/OOPS_Methods.png)
+
+![img](./Screenshots/Constructors.png)
+
+![img](./Screenshots/preprocessor_Directives.png)
+
 
 ## Description
 
@@ -11,7 +19,7 @@ The course addresses the requisite basic concepts of [C++ programming language](
 
 |Sr. No| Topics Covered in this course |
 |-|-|
-| 1.   | [basics]()                |
+| 1.   | [basics](./basics)                |
 |2.| [OOPS]()                    |
 | 2. i)|[Operator Overloading]()             |
 | 2. ii)|[Inheritance]()             |
@@ -22,8 +30,6 @@ The course addresses the requisite basic concepts of [C++ programming language](
 | 5. |[CPP11 features]()                   |
 | 6. |[Problems]()                         |
 | 7. |[Student Project - Banking System]() |
-
-| [LICENSE](LICENSE)                   |
 
 
 
@@ -46,20 +52,19 @@ $ git fetch upstream
 $ git merge upstream/master
 ```
 
-### Screenshots
-w
+
 
 ### Resources Used
 
 - [C++ course on Udemy](https://www.udemy.com/course/cpp-deep-dive/) by Mr Abdul Bari.
 - [Microsoft VS Code](https://code.visualstudio.com/) for typing and executing these files.
-- [C/C++ for Visual Studio Code](https://github.com/Microsoft/vscode-cpptools) and [Code Runner](https://github.com/formulahendry/vscode-code-runner) for running the code.
-- [Better Comments](https://github.com/aaron-bond/better-comments) for better comment highlighting.
+- [C/C++ for Visual Studio Code](https://github.com/Microsoft/vscode-cpptools) and [Code Runner](https://github.com/formulahendry/vscode-code-runner) for faster execution in terminal.
+- [Better Comments](https://github.com/aaron-bond/better-comments) for comment highlighting.
 
 ## Room for Improvement
 Some Advanced topics can be added
 
-#### [Data Structures and Algorithms Repository](https://github.com/parasguglani1/DSA_Practice)
+#### [Data Structures and Algorithms Repository[In progress]](https://github.com/parasguglani1/DSA_Practice)
 
 - [Graphical Programming]()
 - [Multi Threading]()
