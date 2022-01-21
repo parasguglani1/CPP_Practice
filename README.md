@@ -13,6 +13,11 @@ Efforts were made to make the files as readable as possible, by Commenting the c
 
 The course addresses the requisite basic concepts of [C++ programming language](https://en.wikipedia.org/wiki/C%2B%2B) and was hence underwent in order to strengthen and formalize what I had known beforehand
 
+For other Advanced Concepts and practice problems, I have created
+#### [Data Structures and Algorithms Repository[In progress]](https://github.com/parasguglani1/DSA_Practice)
+#### [Additional Problems in competitive programming](https://github.com/parasguglani1/competitive_coding)
+
+
 ### Table of contents
 
 | Sr. No  | Topics Covered in this course                                               |
@@ -55,9 +60,9 @@ $ git merge upstream/master
 
 ## Room for Improvement
 
-Some Advanced topics can be added
 
-#### [Data Structures and Algorithms Repository[In progress]](https://github.com/parasguglani1/DSA_Practice)
+
+Some Advanced topics can be added
 
 - [Graphical Programming]()
 - [Multi Threading]()
