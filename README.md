@@ -59,22 +59,6 @@ $ git merge upstream/master
 - [C/C++ for Visual Studio Code](https://github.com/Microsoft/vscode-cpptools) and [Code Runner](https://github.com/formulahendry/vscode-code-runner) for faster execution in terminal.
 - [Better Comments](https://github.com/aaron-bond/better-comments) for comment highlighting.
 
-## Room for Improvement
-
-
-
-Some Advanced topics can be added
-
-- [Graphical Programming]()
-- [Multi Threading]()
-- [STL containers:]
-  - [pair](https://www.geeksforgeeks.org/pair-in-cpp-stl/)
-  - [vector](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
-  - [list](https://www.geeksforgeeks.org/list-cpp-stl/)
-  - [map of pairs](https://www.geeksforgeeks.org/map-pairs-stl/)
-  - [set ](https://www.geeksforgeeks.org/set-in-cpp-stl/)
-  - [multimap](https://www.geeksforgeeks.org/multimap-associative-containers-the-c-standard-template-library-stl/)
-
 ## Contributing
 
 > Think you're ready :grey_question: Make the PR :tropical_drink:
