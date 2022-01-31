@@ -33,7 +33,8 @@ For other Advanced Concepts and practice problems, I have created
 | 5.      | [CPP11 features](./CPP11%20features/)                                       |
 | 6.      | [Problems](/practice%20problems/)                                           |
 | 7.      | [Student Project - Banking System](./Project/banking_system.cpp)            |
-
+| 8.      | [C++ Notes ](./C++%20Notes.md)            |
+| 9.      | [Advanced C++ Notes ](./Advanced-C++%20Notes.md)            |
 ## :arrow_down: Installation
 
 - First, fork this repository :fork_and_knife: and follow the given instructions:
