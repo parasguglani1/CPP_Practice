@@ -16,7 +16,7 @@ Compiler provided default constructor
 • If data members are initialised then we can use the object.
 Type of Constructors
 *There are 3 type of constructors.
-1.Non-parametrised (also called as default)
+1.Non-parameterised (also called as default)
 2.Parameterised
 3.Copy constructor
 ?Do we have to write all constructors ?
