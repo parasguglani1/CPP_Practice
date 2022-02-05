@@ -3,7 +3,7 @@ using namespace std;
 
 //don't have cin and cout in functions
 
-int sum(int x, int y) //this part is call funtion signature
+int sum(int x, int y) //this part is call function signature
 {
     return x+y;
 }
