@@ -2,13 +2,13 @@
 using namespace std;
 
 
-// template<class T>
-// T Max(T a, T b)
-// {
-//     if(a<b)
-//     return b;
-//     else return a;
-// }
+template<class T>
+T Max(T a, T b)
+{
+    if(a<b)
+    return b;
+    else return a;
+}
 // Max() function template for 2 numbers
 
 //here c is a default argument to overload function
