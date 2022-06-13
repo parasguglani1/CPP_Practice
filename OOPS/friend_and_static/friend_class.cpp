@@ -1,6 +1,6 @@
-# include<iostream>
+#include <iostream>
 using namespace std;
-    
+
 /*program for friend class
 • Friend functions are global functions
 • They can access member of a class upon their objects
@@ -13,8 +13,10 @@ class my
 {
 private:
 	int a;
+
 protected:
 	int b;
+
 public:
 	int c;
 	friend your;
@@ -25,9 +27,8 @@ public:
 	my m;
 	void fun()
 	{
-	     m.a=10;
-	     m.b=10;
-	     m.c=10;
+		m.a = 10;
+		m.b = 10;
+		m.c = 10;
 	}
 };
-

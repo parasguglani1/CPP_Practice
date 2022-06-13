@@ -1,4 +1,4 @@
-/* 
+/*
 
 ?What is a default constructor?
 •A constructor which dent take any parameters is called as default
@@ -40,14 +40,14 @@ in main() then it is a good design.
 *Copy constructor vs Assignment operator
 their working is same but usage is different.
 Rectangle r1(10,5);
-Rectangle r2(r1); // copy constructor is called 
+Rectangle r2(r1); // copy constructor is called
 Rectangle r3=r1; // assignment operator is called
 
 
  */
-# include<iostream>
+#include <iostream>
 using namespace std;
-    
+
 /*program for creating default constructors
 
 */
@@ -57,14 +57,15 @@ private:
 	int length;
 	int breadth;
 	int *ptr;
+
 public:
-//  Rectangle(); //default constructor
- Rectangle(int l,int b); //parameterized constructor
- Rectangle(const Rectangle &r); //copy constructor
-void setLength(int l); //setter or mutator
+	//  Rectangle(); //default constructor
+	Rectangle(int l, int b);	   // parameterized constructor
+	Rectangle(const Rectangle &r); // copy constructor
+	void setLength(int l);		   // setter or mutator
 	int area()
 	{
-		return length*breadth;
+		return length * breadth;
 	}
 };
 
@@ -73,68 +74,58 @@ void setLength(int l); //setter or mutator
 //  length=1;
 //  breadth=1;
 // }
-Rectangle::Rectangle(int l=0,int b=0) //will also work as default constructor
+Rectangle::Rectangle(int l = 0, int b = 0) // will also work as default constructor
 {
- length=l;
- breadth=b;
- ptr=new int[length];
-
+	length = l;
+	breadth = b;
+	ptr = new int[length];
 }
 Rectangle::Rectangle(const Rectangle &r)
 {
- length=r.length+1;
- breadth=r.breadth;
- ptr=new int[length];
- cout<<"Copy constructor called"<<endl;
-//   if we didn't write this copy cons default copy constructor will be called which will point to the same memory location (i.e. shallow copy)
+	length = r.length + 1;
+	breadth = r.breadth;
+	ptr = new int[length];
+	cout << "Copy constructor called" << endl;
+	//   if we didn't write this copy cons default copy constructor will be called which will point to the same memory location (i.e. shallow copy)
 }
 
 void Rectangle::setLength(int l)
 {
- length=l;
+	length = l;
 }
-
-
 
 int main()
 {
-	
+
 	Rectangle r1;
-	cout<<r1.area()<<endl;
+	cout << r1.area() << endl;
 
-	Rectangle r2(10,5);
-	cout<<r2.area()<<endl;
+	Rectangle r2(10, 5);
+	cout << r2.area() << endl;
 
-	Rectangle r3=r2; //copy constructor is called because object is created in same line
-		cout<<r3.area()<<endl;
+	Rectangle r3 = r2; // copy constructor is called because object is created in same line
+	cout << r3.area() << endl;
 	// can also be written as Rectangle r3(r2);
 	Rectangle r4;
-	r4=r2; //assignment operator is called
+	r4 = r2; // assignment operator is called
 	// cout<<r1.area()<<endl;
 	// cout<<r2.area()<<endl;
 
-	cout<<r4.area()<<endl;
+	cout << r4.area() << endl;
 
 	r2.setLength(20);
 
-	cout<<"after20"<<endl;
+	cout << "after20" << endl;
 
-	cout<<r1.area()<<endl;
-	cout<<r2.area()<<endl;
-	cout<<r3.area()<<endl;
-	cout<<r4.area()<<endl;
-
-
+	cout << r1.area() << endl;
+	cout << r2.area() << endl;
+	cout << r3.area() << endl;
+	cout << r4.area() << endl;
 
 	return 0;
-
 }
 
-
-
-
-
-/* 
+/*
 Deep Copy vs Shallow Copy Constructors
 Deep Copy:
 • deep copy constructor is useful for making a copy of dynamic

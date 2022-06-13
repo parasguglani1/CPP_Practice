@@ -3,7 +3,7 @@
 • Virtual functions can be overrides in derived class
 • Pure virtual functions must be overrides by derived class */
 
-# include<iostream>
+#include <iostream>
 using namespace std;
 
 class base
@@ -11,17 +11,17 @@ class base
 public:
 	virtual void fun()
 	{
-		cout<<"fun of base"<<endl;
+		cout << "fun of base" << endl;
 	}
 };
 
-class derived:public base
+class derived : public base
 
 {
 public:
 	void fun()
 	{
-		cout<<"fun of derived"<<endl;
+		cout << "fun of derived" << endl;
 	}
 };
 
@@ -29,6 +29,6 @@ int main()
 {
 	derived d;
 	d.fun();
-	base *ptr=&d; //base pointer pointing to derived object will call derived class fun() because of virtual function in base class otherwise it will call base class fun()
+	base *ptr = &d; // base pointer pointing to derived object will call derived class fun() because of virtual function in base class otherwise it will call base class fun()
 	ptr->fun();
 }

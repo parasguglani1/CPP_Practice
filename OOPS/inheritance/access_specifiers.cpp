@@ -1,65 +1,64 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-    
+
 class Rectangle
 {
-    private:
+private:
 	int length;
 	int breadth;
-	        
-	public:
+
+public:
 	void setLength(int l)
 	{
-	if(l>0)
-		length=l;
-	else
-		length=0;
+		if (l > 0)
+			length = l;
+		else
+			length = 0;
 	}
-	            
-	void setBreadth( int b)
+
+	void setBreadth(int b)
 	{
-	if(b>0)
-		breadth=b;
-	else
-		breadth=0;
+		if (b > 0)
+			breadth = b;
+		else
+			breadth = 0;
 	}
-	            
+
 	int getLength()
 	{
 		return length;
 	}
-	            
+
 	int getBreadth()
 	{
 		return breadth;
 	}
-	            
+
 	int area()
 	{
-		return length*breadth;
+		return length * breadth;
 	}
-	            
+
 	int perimeter()
 	{
-		return 2*(length+breadth);
+		return 2 * (length + breadth);
 	}
 };
-    
+
 int main()
 {
 	Rectangle r1;
 	r1.setLength(10);
 	r1.setBreadth(5);
-	    
-	cout<<r1.area()<<endl;    
-	cout<<r1.perimeter()<<endl;
-	cout<<"Length"<<r1.getLength()<<endl;    
-	cout<<"Breadth"<<r1.getBreadth()<<endl;
-	    
+
+	cout << r1.area() << endl;
+	cout << r1.perimeter() << endl;
+	cout << "Length" << r1.getLength() << endl;
+	cout << "Breadth" << r1.getBreadth() << endl;
+
 	return 0;
-/* 
-Private - Accessible only inside a class
-Protected - Accessible inside a class and inside derived classes
-Public - accessible inside class, inside derived class and upon object */
-	    
+	/*
+	Private - Accessible only inside a class
+	Protected - Accessible inside a class and inside derived classes
+	Public - accessible inside class, inside derived class and upon object */
 }

@@ -7,7 +7,7 @@
 
 #include <iostream>
 using namespace std;
-#define max(x,y) (x>y?x:y)
+#define max(x, y) (x > y ? x : y)
 #define msg(x) #x
 
 #ifdef PI
@@ -15,30 +15,26 @@ using namespace std;
 #endif
 
 #ifndef PI
- #define PI 3.1425
-
+#define PI 3.1425
 
 #endif
-
-
 
 #define gfg 7
-   
-#if gfg > 200
-   #undef gfg
-   #define gfg 200
-#elif gfg < 50
-   #undef gfg
-   #define gfg 50
-#else
-   #undef gfg
-   #define gfg 100
-#endif
 
+#if gfg > 200
+#undef gfg
+#define gfg 200
+#elif gfg < 50
+#undef gfg
+#define gfg 50
+#else
+#undef gfg
+#define gfg 100
+#endif
 
 int main()
 {
- cout<<PI;
- cout<<max(10,12)<<endl;
- cout<<msg(hello)<<endl;
-}   
+   cout << PI;
+   cout << max(10, 12) << endl;
+   cout << msg(hello) << endl;
+}

@@ -1,12 +1,13 @@
-# include<iostream>
+#include <iostream>
 using namespace std;
-    
+
 /*program for nested or inner class
 
 */
 class outer
 {
 	class inner;
+
 public:
 	void fun()
 	{
@@ -17,7 +18,7 @@ public:
 	public:
 		void display()
 		{
-			cout<<"display of inner"<<endl;
+			cout << "display of inner" << endl;
 		}
 	};
 	inner i;
@@ -27,9 +28,7 @@ int main()
 	outer::inner i;
 }
 
-
-
-/* 
+/*
 
 ?Can we create outer class object in inner class and access the data members of the outer class inside the inner class ?
 Inner class is useful only for outer class.
@@ -42,4 +41,3 @@ First it will be sent to output buffer and then displayed on the screen.
 Sometimes in very large programs, it remains in the buffer and we dont get the output in proper order.
 Flush is used to confirm that the buffered is cleared and the output is sent to the screen.
 */
-

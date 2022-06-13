@@ -1,6 +1,6 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-    
+
 /*program for friend function
 
 //?Can two different classes have same friend function ?
@@ -31,8 +31,10 @@ class test
 {
 private:
 	int a;
+
 protected:
 	int b;
+
 public:
 	int c;
 	friend void fun();
@@ -40,7 +42,7 @@ public:
 void fun()
 {
 	test t;
-	t.a=10;
-	t.b=15;
-	t.c=9;
+	t.a = 10;
+	t.b = 15;
+	t.c = 9;
 }

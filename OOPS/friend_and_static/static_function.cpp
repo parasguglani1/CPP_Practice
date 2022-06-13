@@ -1,6 +1,6 @@
-# include<iostream>
+#include <iostream>
 using namespace std;
-    
+
 /*program for static function of a class
 Static members functions are functions of a class, they can be called using class name, without
 creating object of a class.
@@ -14,18 +14,18 @@ public:
      static int count;
      test()
      {
-	   a=10;
-           count++;
+          a = 10;
+          count++;
      }
      static int getcount()
      {
-	   return count;
+          return count;
      }
 };
-int test::count=0;
+int test::count = 0;
 int main()
 {
-	test t1,t2;
-	cout<<test::getcount()<<endl;
-	cout<<t1.getcount()<<endl;
+     test t1, t2;
+     cout << test::getcount() << endl;
+     cout << t1.getcount() << endl;
 }

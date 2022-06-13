@@ -6,12 +6,12 @@ are declared as virtual
 • Derived class pointer cannot point on base class object
 • If a Base Class pointer is pointing on derived class object then
 using the base class pointer we can access only inherited methods
-(methods defined in base class) on derived class object. 
+(methods defined in base class) on derived class object.
  */
 
-# include<iostream>
+#include <iostream>
 using namespace std;
-    
+
 /*program for demo#1-base class pointer derived class object
 
 */
@@ -20,30 +20,30 @@ class base
 public:
 	void fun1()
 	{
-		cout<<"fun1 of base"<<endl;
+		cout << "fun1 of base" << endl;
 	}
 };
-class derived:public base
+class derived : public base
 {
 public:
 	void fun1()
 	{
-		cout<<"fun2 of derived"<<endl;
+		cout << "fun2 of derived" << endl;
 	}
 };
 int main()
 {
 	derived d;
-	base *ptr=&d;
+	base *ptr = &d;
 	ptr->fun1();
 	// ptr->fun2();
 	return 0;
 }
-/* 
+/*
 
 # include<iostream>
 using namespace std;
-    
+
 program for demo#2-base class pointer derived class object
 
 
@@ -71,19 +71,17 @@ int main()
 	c.area();
 	c.volume();
 	p->area();
-	p->volume();		      
+	p->volume();
 	return 0;
 }
 
  */
 
-
-
-/* 
+/*
 
 # include<iostream>
 using namespace std;
-    
+
 program for demo#3-base class pointer derived class object
 
 

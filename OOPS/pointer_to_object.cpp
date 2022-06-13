@@ -21,10 +21,9 @@
 // p=new Rectangle();
 // p->area();
 
-
-# include<iostream>
+#include <iostream>
 using namespace std;
-    
+
 /*program for writing pointer to an object
 
 */
@@ -35,24 +34,22 @@ public:
 	int breadth;
 	int area()
 	{
-		return length*breadth;
+		return length * breadth;
 	}
 
 	int perimeter()
-        {
-		return 2*(length+breadth);
+	{
+		return 2 * (length + breadth);
 	}
 };
 int main()
-{	
+{
 	rectangle r1;
-	rectangle *ptr;// or we can say rectangle *ptr=new rectangle();
-	ptr=&r1;//instead of these two lines
-	ptr->length=10;
-	ptr->breadth=5;
+	rectangle *ptr; // or we can say rectangle *ptr=new rectangle();
+	ptr = &r1;		// instead of these two lines
+	ptr->length = 10;
+	ptr->breadth = 5;
 
-	cout<<ptr->area()<<endl;
-	cout<<ptr->perimeter()<<endl;  
-
-
+	cout << ptr->area() << endl;
+	cout << ptr->perimeter() << endl;
 }

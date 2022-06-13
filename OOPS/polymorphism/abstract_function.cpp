@@ -1,36 +1,36 @@
-# include<iostream>
+#include <iostream>
 using namespace std;
-    
+
 /*program for abstract class
 
 */
-class car   
+class car
 {
 public:
-	virtual void start()=0;
+	virtual void start() = 0;
 };
-class innova:public car
+class innova : public car
 {
 public:
 	void start()
 	{
-		cout<<"innova started"<<endl;
+		cout << "innova started" << endl;
 	}
 };
-class swift:public car
+class swift : public car
 {
 public:
 	void start()
-        {
-		cout<<"swift started"<<endl;
+	{
+		cout << "swift started" << endl;
 	}
 };
 int main()
 {
 	// car c;
-	car *ptr=new innova();
+	car *ptr = new innova();
 	ptr->start();
-	ptr=new swift();
+	ptr = new swift();
 	ptr->start();
 }
 /* Class having pure virtual function is a abstract class
@@ -46,7 +46,6 @@ class.
 • Concrete
 • Abstract with some concrete and some pure virtual functions
 • All virtual functions */
-
 
 /* Abstract Function
 If a member function is not having a body then it is an abstract
@@ -66,10 +65,6 @@ We can create object of abstract class but cannot call undefined
 functions.
 Abstract classes are useful for achieving polymorphism */
 
-//An abstract class is a class that is designed to be specifically used as a base class. An abstract class contains at least one pure virtual function. You declare a pure virtual function by using a pure specifier (= 0) in the declaration of a virtual member function in the class declaration.   
+// An abstract class is a class that is designed to be specifically used as a base class. An abstract class contains at least one pure virtual function. You declare a pure virtual function by using a pure specifier (= 0) in the declaration of a virtual member function in the class declaration.
 
-// if an abstract class is being used in a class then its method must be overridden in the derived class.           
-
-
-
-
+// if an abstract class is being used in a class then its method must be overridden in the derived class.

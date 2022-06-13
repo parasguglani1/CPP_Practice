@@ -11,7 +11,7 @@
 // default.
 // One more thing, Functions should not be inline. But when you
 // were writing a function for single line also then it’s better to make
-// inline to avoid function call. 
+// inline to avoid function call.
 
 // • simple single line functions can be made as inline.
 // • inline functions will save time. call will not be made and activation
@@ -27,47 +27,44 @@
 // • copying of code is decided by compiler. writing inline is a hint to
 // compiler
 
-
 class Rectangle
 {
 private:
- int length;
- int breadth;
- //best practice to declare private variables to prevent data mishandling by the user and functions in public 
- //we write perfect code in classes
+    int length;
+    int breadth;
+    // best practice to declare private variables to prevent data mishandling by the user and functions in public
+    // we write perfect code in classes
 public:
- Rectangle(); //default constructor
- Rectangle(int l,int b); //parameterized constructor
- Rectangle(Rectangle &r); //copy constructor
- int getLength(){return length;} //getter or accessor //inline function
- int getBreadth(){return breadth;}  //getter or accessor //inline function
- void setLength(int l); //setter or mutator
- void setBreadth(int b); //setter or mutator
- int area(); //facilitator  function
- int perimeter(); //function
- bool isSquare(); //function
- ~Rectangle(); //destructor
+    Rectangle();                         // default constructor
+    Rectangle(int l, int b);             // parameterized constructor
+    Rectangle(Rectangle &r);             // copy constructor
+    int getLength() { return length; }   // getter or accessor //inline function
+    int getBreadth() { return breadth; } // getter or accessor //inline function
+    void setLength(int l);               // setter or mutator
+    void setBreadth(int b);              // setter or mutator
+    int area();                          // facilitator  function
+    int perimeter();                     // function
+    bool isSquare();                     // function
+    ~Rectangle();                        // destructor
 };
-
 
 inline void Rectangle::setLength(int l)
 {
- length=l;
+    length = l;
 }
 inline void Rectangle::setBreadth(int b)
 {
- breadth=b;
+    breadth = b;
 }
 inline int Rectangle::area()
 {
- return length*breadth;
+    return length * breadth;
 }
 inline int Rectangle::perimeter()
 {
- return 2*(length+breadth);
+    return 2 * (length + breadth);
 }
 inline bool Rectangle::isSquare()
 {
- return length==breadth;
+    return length == breadth;
 }
-

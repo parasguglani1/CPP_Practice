@@ -1,6 +1,6 @@
-# include<iostream>
+#include <iostream>
 using namespace std;
-    
+
 /*program for operator overloading using friend functions
 
 */
@@ -9,28 +9,27 @@ class complex
 private:
 	int real;
 	int img;
+
 public:
-	complex(int r=0, int i=0)
+	complex(int r = 0, int i = 0)
 
 	{
-	      real=r;
-	      img=i;
+		real = r;
+		img = i;
 	}
 	void display()
 	{
-			cout<<real<<"+i"<<img<<endl;
-		}
-		friend ostream & operator<<(ostream &out,complex &c); // friend function
-	};
-    
-
-
-	ostream & operator<<(ostream &out,complex &c)
-	{
-		out<<c.real<<"+i"<<c.img<<endl;
-		return out;
+		cout << real << "+i" << img << endl;
 	}
-/* 
+	friend ostream &operator<<(ostream &out, complex &c); // friend function
+};
+
+ostream &operator<<(ostream &out, complex &c)
+{
+	out << c.real << "+i" << c.img << endl;
+	return out;
+}
+/*
 *•ostream & operator<<(ostream &os, Complex &c);
 
 • It is a global function.
@@ -39,7 +38,7 @@ public:
 1. ostream
 2. Object of your class.
 *• ostream parameter must be reference
-*•Return type should be reference of ostream 
+*•Return type should be reference of ostream
 ?How cout works?
 • If Complex comp; is a complex object, then
 • cout<<comp;
@@ -56,11 +55,9 @@ cout<<comp<<endl;
 • Result of return by reference comes on left side so it becomes
 • cout<<endl; Then endl is printed */
 
-
-
-	int main()
-	{
-		complex c(10,5);
-		cout<<c<<endl; // if we returned void then we can't use endl here it must return ostream 
-		operator<<(cout,c);
-	}
+int main()
+{
+	complex c(10, 5);
+	cout << c << endl; // if we returned void then we can't use endl here it must return ostream
+	operator<<(cout, c);
+}
