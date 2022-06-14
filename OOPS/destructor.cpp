@@ -6,7 +6,7 @@ using namespace std;
 //* destructor cannot be overloaded
 //* destructor is called when object is destroyed usually at the end of the program or mail function
 //* destructor cannt return any value like constructor
-
+//* if object is allocated dynamically we need to use delete to clear memory and then destructor will be called. 
 */
 class demo
 {

@@ -6,6 +6,7 @@ Static members functions are functions of a class, they can be called using clas
 creating object of a class.
 • They can access only static data members of a class, they cannot access non-static members
 of a class.
+they don't have access to this
 */
 class test
 {

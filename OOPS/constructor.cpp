@@ -9,8 +9,7 @@ constructor.
 Compiler provided default constructor
 •If we don’t write any constructor, compiler will provide a default constructor.
 •It will create the object, but doesn’t initialise data members.
-•If we define our own contractor, then compiler will not provide
-*default constructor.
+•If we define our own parameterised contractor, then compiler will not provide default constructor of no args so we need to create as well.
 ?Why we write constructor?
 • We can initialise the data members of an object.
 • If data members are initialised then we can use the object.
@@ -61,7 +60,7 @@ private:
 public:
 	//  Rectangle(); //default constructor
 	Rectangle(int l, int b);	   // parameterized constructor
-	Rectangle(const Rectangle &r); // copy constructor
+	Rectangle(const Rectangle &r); // copy constructor also provided automatically
 	void setLength(int l);		   // setter or mutator
 	int area()
 	{
@@ -114,7 +113,7 @@ int main()
 	cout << r4.area() << endl;
 
 	r2.setLength(20);
-
+	Rectangle r5(r2);
 	cout << "after20" << endl;
 
 	cout << r1.area() << endl;
