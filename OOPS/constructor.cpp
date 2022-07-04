@@ -115,11 +115,12 @@ int main()
 	r2.setLength(20);
 	Rectangle r5(r2);
 	cout << "after20" << endl;
-
-	cout << r1.area() << endl;
-	cout << r2.area() << endl;
-	cout << r3.area() << endl;
-	cout << r4.area() << endl;
+	Rectangle *r6 = new Rectangle;
+	cout << r6->area();
+	// cout << r1.area() << endl;
+	// cout << r2.area() << endl;
+	// cout << r3.area() << endl;
+	// cout << r4.area() << endl;
 
 	return 0;
 }
