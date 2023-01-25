@@ -104,25 +104,27 @@ cout<<str<<endl;
 for(string::iterator itr=str.begin();itr!=str.end();itr++)
 {
     *itr=*itr-32;
-    
+
 }
 cout<<str<<endl;
 
 //reverse iterator
 
-for(string::reverse_iterator itr=str.rbegin();itr!=str.rend();itr++)
-{
-    // *itr=*itr-32;
-    cout<<*itr<<endl;   
-}
-cout<<str<<endl;
 
-// we can use simple for loop as well
-for (int i = 0; i < str[i]!='\0'; i++)
-{
-    cout<<str[i]<<endl;
-}
+
+// for(string::reverse_iterator itr=str.rbegin();itr!=str.rend();itr++)
+// {
+//     // *itr=*itr-32;
+//     cout<<*itr<<endl;
+// }
+// cout<<str<<endl;
+
+// // we can use simple for loop as well
+// for (int i = 0; i < str[i]!='\0'; i++)
+// {
+//     cout<<str[i]<<endl;
+// }
 
 
 return 0;
-}   
+}

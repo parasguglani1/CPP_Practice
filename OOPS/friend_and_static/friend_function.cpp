@@ -46,3 +46,10 @@ void fun()
 	t.b = 15;
 	t.c = 9;
 }
+
+int main()
+{
+	fun();
+
+	return 0;
+}
