@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    // there is only one entry related to array in symbol table so &a and a both give same result, since symbol table can't change a cannot be reassigned to another address like in case of pointer.
+    // there is only one entry related to array in symbol table so &a and a both give same result(unless character pointer which prints values untill it get null char, since symbol table can't change a cannot be reassigned to another address like in case of pointer.
     // so sizeof a gives size of whole array but sizeof a[0] gives size of one element of array and sizeof ptr gives size of pointer i.e 80.
 
     int a = 10;
@@ -16,7 +16,7 @@ int main()
     *p += 1;
     cout << "a=" << a << endl;
 
-    *&a++;
+    // *&a++; can't be done
 
     cout << endl;
     // & is the address of operator
